@@ -1,0 +1,11 @@
+# Created by https://www.gitignore.io
+### PyCharm ###
+.idea
+
+### Python ###
+env/
+*.log
+*.pot
+*.pyc
+__pycache__/
+
