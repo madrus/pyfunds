@@ -115,7 +115,7 @@ class Flight:
 
 
 class Aircraft:
-    
+
     def __init__(self, registration):
         self._registration = registration
 

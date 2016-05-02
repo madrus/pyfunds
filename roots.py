@@ -1,3 +1,4 @@
+#! python3
 """A module for demonstrating exceptions as API."""
 
 import sys

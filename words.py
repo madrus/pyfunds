@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#! python3
 """Retrieve and print words from a URL using Python3.
 
 Usage:
