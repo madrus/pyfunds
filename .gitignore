@@ -4,6 +4,7 @@
 
 ### Python ###
 env/
+venv/
 *.log
 *.pot
 *.pyc
