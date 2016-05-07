@@ -13,8 +13,8 @@ def digits(x):
     >>> digits(4586378)
     [4, 5, 8, 6, 3, 7, 8]
     """
-    import pdb
-    pdb.set_trace()
+    # import pdb
+    # pdb.set_trace()
 
     digs = []
     while x != 0:
