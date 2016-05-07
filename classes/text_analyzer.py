@@ -53,7 +53,7 @@ class TextAnalysisTests(unittest.TestCase):
 
     def test_character_count(self):
         """Check that the character count is correct."""
-        self.assertEqual(analyze_text(self.filename)[1], 25)
+        self.assertEqual(analyze_text(self.filename)[1], 131)
 
 
 if __name__ == '__main__':
