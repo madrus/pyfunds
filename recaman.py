@@ -1,6 +1,7 @@
 import sys
 from itertools import count, islice
 
+
 def sequence():
     """Generate Recaman's sequence."""
     seen = set()
@@ -12,6 +13,7 @@ def sequence():
         if c < 0 or c in seen:
             c = a + n
         a = c
+
 
 def write_sequence(filename, num):
     """Write Recaman's sequence to a text file."""
