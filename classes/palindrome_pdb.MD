@@ -70,3 +70,29 @@ Program interrupted. (Use 'cont' to resume).
 -> while x != 0:
 ```
 Exit `PDB` with `quit` command (a couple of times).
+
+Now we can add PDB inside our Python module at the beginning
+of the loop:
+```python
+import pdb
+pdb.set_trace()
+```
+and run the program without specifying PDB at the command prompt:
+```bash
+python classes/palindrome.py
+> j:\py\pyfunds\classes\palindrome.py(19)digits()
+-> digs = []
+```
+Checking with `where` command confirms the desired location.
+
+We can use `next` command or `Enter` key to step through the code.
+
+Using `print` command, we can inspect variables:
+```bash
+(Pdb) print(x)
+1234
+(Pdb) print(digs)
+[]
+```
+So, in this way, combining stepping through the program and
+inspecting the variables, we can find the bug.
